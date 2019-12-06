@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Where the environment variables are kept
+oauth2yahoo.json
