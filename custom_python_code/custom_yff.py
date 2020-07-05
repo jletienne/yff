@@ -43,7 +43,7 @@ def get_league_settings(league_id):
 
     league_stats_dict['10'] = '6' #rush tds are worth 6 points
     league_stats_dict['11'] = '1' #receptions are worth 1 points
-    league_stats_dict['12'] = '.1' #receiving yards ere worth .1 points
+    league_stats_dict['12'] = '.1' #receiving yards are worth .1 points
     league_stats_dict['16'] = '2' #two point conversions are worth 2 points
     league_stats_dict
 
