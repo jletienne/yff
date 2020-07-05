@@ -39,7 +39,7 @@ weekly_team_stats = []
 
 opponent = {'0': '1', '1': '0'}
 for week in range(1, week_num+1):
-    url = 'https://fantasysports.yahooapis.com/fantasy/v2/league/390.l.227235/scoreboard;week={}'.format(week)
+    url = 'https://fantasysports.yahooapis.com/fantasy/v2/league/390.l.XXXXXX/scoreboard;week={}'.format(week)
     response = oauth.session.get(url, params={'format': 'json'})
     r = response.json()
 

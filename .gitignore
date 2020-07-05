@@ -105,3 +105,7 @@ venv.bak/
 
 # Where the environment variables are kept
 oauth2yahoo.json
+
+rawdata/archive
+config.yaml
+/notebooks
